@@ -70,6 +70,12 @@ Tipos de Login e funções:
 Sendo em relação as ideias apresentada uma pequena introdução da ideia
 uma definição mais aprofundada
 
-
+Visual Studio community = 0R$
+Creative cloud individual = 71R$/Mes -> 852 anual
+Servidor WordPress Premium = 26R$/Mes -> 312 anual
+Gastos externos = 500R$
+Total = 1664R$
+Meta de  +2 projetos por mes
+Custo estimativa de +/- 3600
 
 
