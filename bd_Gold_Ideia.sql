@@ -41,10 +41,10 @@ CREATE TABLE IF NOT EXISTS `tbl_ideias` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `tbl_investimeto`
+-- Estrutura da tabela `tbl_investimento`
 --
 
-CREATE TABLE IF NOT EXISTS `tbl_investimeto` (
+CREATE TABLE IF NOT EXISTS `tbl_investimento` (
   `inv_cod` int(11) NOT NULL AUTO_INCREMENT,
   `inv_usu` int(11) NOT NULL,
   `inv_ideia` int(11) NOT NULL,
