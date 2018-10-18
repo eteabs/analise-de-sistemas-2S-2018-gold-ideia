@@ -1,0 +1,7 @@
+.btn_start{
+    background-color: transparent;
+}
+
+.btn_start:hover{
+    background-color: #fec503;
+}
