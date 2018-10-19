@@ -2,7 +2,7 @@
 
 try
 {
-    $pdo = new PDO('mysql:host=localhost;dbname=goldideia;charset=utf8','root','');
+    $pdo = new PDO('mysql:host='. HOST .';dbname='.DBNAME.';charset=utf8', USER , PASS);
 }
 catch(PDOException $e)
 {
