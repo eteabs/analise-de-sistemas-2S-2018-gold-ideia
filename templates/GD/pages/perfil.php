@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Minhas Ideias</h2>
-                <h3 class="section-subheading text-muted">Ideias que tiveram mais destaque no site</h3>
+                <h3 class="section-subheading text-muted">Veja como estão suas ideias</h3>
             </div>
         </div>
         <div class="row">
@@ -40,7 +40,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    <img href="img/portfolio/startup-framework.png" src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Startup Framework</h4>

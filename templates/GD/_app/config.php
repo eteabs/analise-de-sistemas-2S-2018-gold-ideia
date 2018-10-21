@@ -3,7 +3,7 @@
 define('HOST', 'localhost');
 define('DBNAME', 'goldideia');
 define('USER', 'root');
-define('PASS', 'magnus01');
+define('PASS', '');
 
 define('HOME', 'http://localhost/goldideia/templates/GD');
 define('REQUIRE_PATH', 'pages/');

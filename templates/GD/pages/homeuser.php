@@ -9,53 +9,6 @@
     </div>
 </header>
 
-<!-- Services Section -->
-<section id="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Serviços</h2>
-                <h3 class="section-subheading text-muted">Veja o que podemos oferecer.</h3>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-md-3">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-lightbulb fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">Cadastre suas ideias</h4>
-                <p class="text-muted">Se você tem uma ideia boa, acha que ela tem potencial, mas não consegue torna-la realidade, cadastre-a aqui!.</p>
-            </div>
-            <div class="col-md-3">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-eye fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">Torne-as visíveis</h4>
-                <p class="text-muted">Em nosso site sua ideia terá visibilidade de diversos investidores, fazendo com que ela se torne realidade o quanto antes. .</p>
-            </div>
-            <div class="col-md-3">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-dollar-sign fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">Converta-as em ouro</h4>
-                <p class="text-muted">Faça suas ideias tornarem-se realidade com o investimentos de terceiros e lucre muito com elas!.</p>
-            </div>
-            <div class="col-md-3">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-handshake fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">Invista em outras ideias</h4>
-                <p class="text-muted">Não tem nenhuma ideia? Isso não é problema, você pode investir nas ideias de outros usuários e lucrar também.</p>
-            </div>
-        </div>
-
-    </div>
-</section>
-
 <!-- Portfolio Grid Section -->
 <section id="portfolio" class="bg-light-gray">
     <div class="container">

@@ -24,19 +24,31 @@
                     <a class="page-scroll" href="<?= HOME; ?>">Home</a>
                 </li>
                 <li>
+                    <a class="page-scroll" href="<?= HOME; ?>/cadastro-ideia">Cadatre sua ideia</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">Destaques</a>
+                </li>
+                <?php
+                elseif($url[0] == 'cadastro-ideia'):
+                ?>
+                <li>
+                    <a class="page-scroll" href="<?= HOME; ?>">Home</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="<?= HOME; ?>/perfil">Perfil</a>
+                </li>
+                <li>
                     <a class="page-scroll" href="#portfolio">Destaques</a>
                 </li>
                 <?php
                 else:
                 ?>
                 <li>
-                    <a class="page-scroll" href="#services">Serviços</a>
-                </li>
+                    <a class="page-scroll" href="<?= HOME; ?>/perfil">Perfil</a>
+                </li>                
                 <li>
                     <a class="page-scroll" href="#portfolio">Destaques</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="<?= HOME; ?>/perfil">Perfil</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contato</a>

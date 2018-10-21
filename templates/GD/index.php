@@ -66,7 +66,12 @@ require "_app/config.php";
                     endif;  
                     require REQUIRE_PATH . "/{$url[0]}.php";
                 else:
+                    $page_avl = ['login', 'cadastro', 'home'];
                     require REQUIRE_PATH . "inc/header.inc.php";
+                    if(!in_array($url[0],$page_avl)):
+                        header('LOCATION: '.HOME.'/home');
+                        die;
+                    endif;
                     require REQUIRE_PATH . "/{$url[0]}.php";
                 endif;
                 break;
@@ -78,6 +83,7 @@ require "_app/config.php";
         require "404.php";
     endif;
 
+    require REQUIRE_PATH . "inc/modal.inc.php";
     require REQUIRE_PATH . "inc/footer.inc.php";
     ?>
 
@@ -94,8 +100,7 @@ require "_app/config.php";
 
     <!-- Contact Form JavaScript -->
     <script src="<?= HOME; ?>/js/jqBootstrapValidation.js"></script>
-    <script src="<?= HOME; ?>/js/contact_me.js"></script>
-
+    
     <!-- Custom Theme JavaScript -->
     <script src="<?= HOME; ?>/js/main.js"></script>
     
